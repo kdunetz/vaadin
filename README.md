@@ -1,4 +1,3 @@
-HEllo there
 
 # Vaadin JPA CRUD
 
