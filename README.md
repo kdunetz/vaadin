@@ -1,4 +1,3 @@
-lakdjflask
 # Vaadin JPA CRUD
 
 This is an example application that shows how your can build rich UIs for your Bluemix backed execution environment (Liberty server and DB2 database) with the opensource Vaadin Framework.
