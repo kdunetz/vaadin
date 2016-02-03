@@ -1,0 +1,4 @@
+Just change any data you wish...then run mvn install followed by cf push
+
+vi src/main/java/org/vaadin/presentation/AppUI.java # I have some KAD references in there
+

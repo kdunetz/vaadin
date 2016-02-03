@@ -23,7 +23,7 @@ import org.vaadin.cdiviewmenu.ViewMenuUI;
  */
 @CDIUI("")
 @Theme("valo")
-@Title("Simple CRM")
+@Title("KAD Dec 21 Simple CRM")
 @Widgetset("AppWidgetset")
 public class AppUI extends ViewMenuUI {
 

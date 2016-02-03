@@ -161,9 +161,9 @@ public class CustomerListView extends MVerticalLayout implements View {
     private void adjustTableColumns() {
         if (ScreenSize.getScreenSize() == ScreenSize.LARGE) {
             customerTable.setVisibleColumns("firstName", "lastName", "email",
-                    "status");
+                    "status", "gender");
             customerTable.setColumnHeaders("First name", "Last name", "Email",
-                    "Status");
+                    "Status", "Gender");
         } else {
             // Only show one (generated) column with combined first + last name
             if (customerTable.getColumnGenerator("name") == null) {

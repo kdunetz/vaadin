@@ -44,6 +44,8 @@ public class CustomerForm extends AbstractForm<Customer> {
             withCaption("Status");
     OptionGroup gender = new OptionGroup("Gender");
     TextField email = new MTextField("Email").withFullWidth();
+    TextField latitude = new MTextField("Latitude").withFullWidth();
+    TextField longitude = new MTextField("Longitude").withFullWidth();
 
     @Override
     protected Component createContent() {
@@ -58,7 +60,9 @@ public class CustomerForm extends AbstractForm<Customer> {
                         email,
                         birthDate,
                         gender,
-                        status
+                        status,
+                        latitude,
+                        longitude
                 ).withFullWidth(),
                 getToolbar()
         ).withStyleName(ValoTheme.LAYOUT_CARD);

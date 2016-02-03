@@ -1,12 +1,12 @@
 ---
 declared-services:
-  simplecrm-sqldb:
+  kad-vaadin-sqldb:
     label: sqldb
     plan: sqldb_small
 applications:
-- name: vaadinApp
+- name: kad-vaadin
   instances: 1
   memory: 512M
   path: target/vaadin-jpa-application.war
   services:
-    - simplecrm-sqldb
+    - kad-vaadin-sqldb

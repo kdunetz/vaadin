@@ -1,0 +1,12 @@
+---
+declared-services:
+  SQL Database-nb:
+    label: sqldb
+    plan: sqldb_small
+applications:
+- name: kad-vaadin
+  instances: 1
+  memory: 512M
+  path: target/vaadin-jpa-application.war
+  services:
+    - SQL Database-nb

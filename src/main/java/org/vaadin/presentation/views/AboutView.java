@@ -34,7 +34,7 @@ public class AboutView extends MVerticalLayout implements View {
         add(new RichText().withMarkDownResource("/about.md"));
 
         int records = service.findAll().size();
-        add(new Label("There are " + records + " records in the DB."));
+        add(new Label("KAD There are " + records + " records in the DB."));
 
         Button button = new Button("Fill test data into DB", new Button.ClickListener() {
             @Override
