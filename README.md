@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Vaadin JPA CRUD
 
 This is an example application that shows how your can build rich UIs for your Bluemix backed execution environment (Liberty server and DB2 database) with the opensource Vaadin Framework.
@@ -83,4 +82,3 @@ Also note, that if you haven't used Maven before, the build may take several min
 Deploying and setting up the database may take a while with a slow network connection, so be patient. In some cases there might happen an error due to e.g. network communication. Canceling the deployment with CTRL-C and trying again usually fixes the issue.
 =======
 # vaadin
->>>>>>> 6f5ee401bba754ec40fd26442aa66fa0f6afcb97
